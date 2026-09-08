@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jelajahi koleksi karya visual Pixel Studio - media digital dan komunikasi visual berkualitas.">
+    <meta property="og:title" content="Collection - Pixel Studio">
+    <meta property="og:description" content="Lihat karya-karya kreatif yang telah kami ciptakan.">
+    <title>Collection - Pixel Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Pixel Studio" class="logo-img"></a>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="collection.html" class="active">COLLECTION</a></li>
+                <li><a href="team.html">OUR TEAM</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">OUR COLLECTION</h1>
+            <p class="page-subtitle">Explore the pieces we've created.</p>
+        </div>
+    </section>
+
+    <section class="collection-section">
+        <div class="container">
+            <div class="product-grid" id="allProducts">
+            </div>
+        </div>
+    </section>
+
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body">
+                <div class="modal-gallery">
+                    <div class="main-image">
+                        <img id="mainImage" src="" alt="">
+                    </div>
+                    <div class="thumbnail-gallery" id="thumbnailGallery">
+                    </div>
+                </div>
+                <div class="modal-info">
+                    <h2 id="productName"></h2>
+                    <p id="productDescription"></p>
+                    <div class="product-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">DROP:</span>
+                            <span class="meta-value" id="productDrop"></span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">CATEGORY:</span>
+                            <span class="meta-value" id="productCategory"></span>
+                        </div>
+                    </div>
+                    <a id="shopeeLink" href="#" target="_blank" rel="noopener" class="btn btn-primary btn-full">BUY ON SHOPEE →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h3>PIXELSTUDIO</h3>
+                <p class="footer-tagline">Every Pixel Tells a Story.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://instagram.com/pixelstudio" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://tiktok.com/@pixelstudio" target="_blank" rel="noopener">TikTok</a>
+                <a href="https://shopee.co.id/pixelstudio" target="_blank" rel="noopener">Shopee</a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 PIXELSTUDIO</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/collection.js"></script>
+</body>
+</html>
