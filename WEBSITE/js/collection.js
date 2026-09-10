@@ -46,13 +46,36 @@ function createProductCard(product) {
     const card = document.createElement('div');
     card.className = 'product-card';
     
+    const badgeHTML = product.badge ? 
+        `<div class="product-badge ${product.badge}">${product.badge === 'best-seller' ? 'BEST SELLER' : product.badge.toUpperCase()}</div>` 
+        : '';
+    
+    const colorsHTML = product.colors ? 
+        `<div class="product-colors">
+            <span>Warna:</span>
+            ${product.colors.map(color => `<div class="color-option" style="background-color: ${color}"></div>`).join('')}
+        </div>` 
+        : '';
+    
+    const sizesHTML = product.sizes ? 
+        `<div class="product-sizes">
+            <span>Ukuran:</span>
+            ${product.sizes.map(size => `<span class="size-option">${size}</span>`).join('')}
+        </div>` 
+        : '';
+    
     card.innerHTML = `
+        ${badgeHTML}
         <div class="product-image">
             <img src="${product.mainImage}" alt="${product.name}" loading="lazy">
         </div>
         <div class="product-info">
             <h3 class="product-name">${product.name}</h3>
             <p class="product-collection">${product.collection}</p>
+            <div class="product-options">
+                ${colorsHTML}
+                ${sizesHTML}
+            </div>
         </div>
     `;
     

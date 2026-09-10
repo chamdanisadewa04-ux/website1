@@ -1,168 +1,173 @@
 const products = [
     {
         id: 1,
-        name: "PIXEL TEE 001",
-        slug: "pixel-tee-001",
-        description: "Experimental graphic tee from our first collection. Bold design dengan konsep minimalis modern.",
+        name: "PIXEL GLITCH TEE",
+        slug: "pixel-glitch-tee",
+        description: "T-shirt streetwear dengan desain grafis bold dan minimalis. Premium cotton fabric untuk kenyamanan maksimal. Limited edition dari koleksi pertama kami.",
         category: "T-Shirt",
         collection: "DROP 01",
-        mainImage: "images/product-photo.jpg",
+        badge: "new",
+        colors: ["#000000", "#0066FF"],
+        sizes: ["M", "L", "XL", "XXL"],
+        mainImage: "images/product-placeholder.jpg",
         galleryImages: [
-            "images/product-photo.jpg",
-            "images/product-photo.jpg",
-            "images/product-photo.jpg",
-            "images/product-photo.jpg"
+            "images/product-placeholder.jpg",
+            "images/product-placeholder.jpg"
         ],
-        shopeeUrl: "https://shopee.co.id/product/123456",
+        price: "Rp149.000",
+        shopeeUrl: "https://shopee.co.id/",
         published: true,
         featured: true
     },
     {
         id: 2,
-        name: "PIXEL HOODIE 001",
-        slug: "pixel-hoodie-001",
-        description: "Premium oversized hoodie dengan material berkualitas tinggi. Perfect untuk streetwear enthusiast.",
-        category: "Hoodie",
+        name: "URBAN STATIC TEE",
+        slug: "urban-static-tee",
+        description: "Premium oversized tee dengan desain grafis eksklusif. Material cotton combed 30s berkualitas tinggi. Perfect untuk streetwear enthusiast yang menginginkan style dan comfort.",
+        category: "T-Shirt",
         collection: "DROP 01",
-        mainImage: "images/product-photo.jpg",
+        badge: "best-seller",
+        colors: ["#000000", "#1E2938"],
+        sizes: ["M", "L", "XL", "XXL"],
+        mainImage: "images/product-placeholder.jpg",
         galleryImages: [
-            "images/product-photo.jpg",
-            "images/product-photo.jpg",
-            "images/product-photo.jpg",
-            "images/product-photo.jpg"
+            "images/product-placeholder.jpg",
+            "images/product-placeholder.jpg"
         ],
-        shopeeUrl: "https://shopee.co.id/product/123457",
+        price: "Rp159.000",
+        shopeeUrl: "https://shopee.co.id/",
         published: true,
         featured: true
     },
     {
         id: 3,
-        name: "PIXEL TEE 002",
-        slug: "pixel-tee-002",
-        description: "Second edition dari signature tee series kami. Refined design dengan detail yang lebih kompleks.",
-        category: "T-Shirt",
+        name: "NEON SHADOW HOODIE",
+        slug: "neon-shadow-hoodie",
+        description: "Premium oversized hoodie dengan desain grafis kompleks. Heavy fleece material untuk warmth maksimal. Graphic design yang lebih kompleks dengan color blocking unik.",
+        category: "Hoodie",
         collection: "DROP 02",
-        mainImage: "images/product-photo.jpg",
+        badge: "new",
+        colors: ["#000000", "#007BFF"],
+        sizes: ["M", "L", "XL", "XXL"],
+        mainImage: "images/product-placeholder.jpg",
         galleryImages: [
-            "images/product-photo.jpg",
-            "images/product-photo.jpg",
-            "images/product-photo.jpg"
+            "images/product-placeholder.jpg",
+            "images/product-placeholder.jpg"
         ],
-        shopeeUrl: "https://shopee.co.id/product/123458",
+        price: "Rp299.000",
+        shopeeUrl: "https://shopee.co.id/",
         published: true,
         featured: true
     },
     {
         id: 4,
-        name: "PIXEL CREWNECK 001",
-        slug: "pixel-crewneck-001",
-        description: "Classic crewneck dengan twist modern. Comfortable dan versatile untuk daily wear.",
-        category: "Crewneck",
+        name: "VOID REALM TEE",
+        slug: "void-realm-tee",
+        description: "Statement tee dengan graphic placement yang unik. Premium cotton dengan print berkualitas tinggi. Standout piece untuk koleksi streetwear Anda.",
+        category: "T-Shirt",
         collection: "DROP 02",
-        mainImage: "images/product-photo.jpg",
+        badge: "limited",
+        colors: ["#000000", "#FFFFFF"],
+        sizes: ["M", "L", "XL", "XXL"],
+        mainImage: "images/product-placeholder.jpg",
         galleryImages: [
-            "images/product-photo.jpg",
-            "images/product-photo.jpg",
-            "images/product-photo.jpg"
+            "images/product-placeholder.jpg",
+            "images/product-placeholder.jpg"
         ],
-        shopeeUrl: "https://shopee.co.id/product/123459",
+        price: "Rp169.000",
+        shopeeUrl: "https://shopee.co.id/",
         published: true,
-        featured: false
+        featured: true
     },
     {
         id: 5,
-        name: "PIXEL LONGSLEEVE 001",
-        slug: "pixel-longsleeve-001",
-        description: "Statement longsleeve dengan graphic placement yang unik. Standout piece untuk koleksi Anda.",
-        category: "Longsleeve",
+        name: "PIXEL CODE HOODIE",
+        slug: "pixel-code-hoodie",
+        description: "Premium hoodie dengan desain minimalis modern. Heavy weight fleece untuk durability dan comfort. Versatile piece untuk daily wear atau layering.",
+        category: "Hoodie",
         collection: "DROP 02",
-        mainImage: "images/product-photo.jpg",
+        badge: "",
+        colors: ["#0B1018", "#00A3FF"],
+        sizes: ["M", "L", "XL", "XXL"],
+        mainImage: "images/product-placeholder.jpg",
         galleryImages: [
-            "images/product-photo.jpg",
-            "images/product-photo.jpg",
-            "images/product-photo.jpg"
+            "images/product-placeholder.jpg",
+            "images/product-placeholder.jpg"
         ],
-        shopeeUrl: "https://shopee.co.id/product/123460",
+        price: "Rp289.000",
+        shopeeUrl: "https://shopee.co.id/",
         published: true,
-        featured: false
+        featured: true
     },
     {
         id: 6,
-        name: "PIXEL SHORTS 001",
-        slug: "pixel-shorts-001",
-        description: "Comfortable shorts dengan subtle branding. Perfect untuk summer vibes.",
-        category: "Shorts",
+        name: "STREET SIGNAL TEE",
+        slug: "street-signal-tee",
+        description: "Streetwear essential dengan subtle branding detail. Premium fabric dengan fit yang relaxed. Perfect untuk gaya urban sehari-hari.",
+        category: "T-Shirt",
         collection: "DROP 03",
-        mainImage: "images/product-photo.jpg",
+        badge: "new",
+        colors: ["#000000", "#004BC8"],
+        sizes: ["M", "L", "XL", "XXL"],
+        mainImage: "images/product-placeholder.jpg",
         galleryImages: [
-            "images/product-photo.jpg",
-            "images/product-photo.jpg"
+            "images/product-placeholder.jpg",
+            "images/product-placeholder.jpg"
         ],
-        shopeeUrl: "https://shopee.co.id/product/123461",
+        price: "Rp149.000",
+        shopeeUrl: "https://shopee.co.id/",
         published: true,
-        featured: false
+        featured: true
     }
 ];
 
 const team = [
     {
         id: 1,
-        name: "Niken",
-        role: "Fotografer",
-        photo: "images/team-photo.jpg",
-        bio: "Fotografer profesional yang menangkap setiap momen dengan detail dan perspektif yang unik. Ahli dalam fotografi produk dan editorial.",
+        name: "Rafli N.",
+        role: "Lead Apparel Designer",
+        photo: "images/team-placeholder.jpg",
+        bio: "Bertanggung jawab atas konsep desain, pemilihan bahan, dan arah kreativitas produk.",
         socialLinks: {
-            instagram: "https://instagram.com/niken"
+            instagram: "https://instagram.com/",
+            behance: "https://behance.net/",
+            email: "mailto:rafli@pixelstudio.com"
         }
     },
     {
         id: 2,
-        name: "Syifa",
-        role: "Graphic Designer",
-        photo: "images/team-photo.jpg",
-        bio: "Desainer grafis yang menciptakan visual identity dan branding yang kuat. Master dalam typography, layout, dan design systems.",
+        name: "Dimas A.",
+        role: "Graphic Artist",
+        photo: "images/team-placeholder.jpg",
+        bio: "Mewujudkan ide menjadi visual yang kuat, detail, dan penuh makna.",
         socialLinks: {
-            instagram: "https://instagram.com/syifa"
+            instagram: "https://instagram.com/",
+            dribbble: "https://dribbble.com/",
+            behance: "https://behance.net/"
         }
     },
     {
         id: 3,
-        name: "Chamdani",
-        role: "Programmer",
-        photo: "images/team-photo.jpg",
-        bio: "Programmer handal yang membangun solusi digital inovatif. Expertise dalam web development dan creative coding.",
+        name: "Salsa P.",
+        role: "Visual Marketer",
+        photo: "images/team-placeholder.jpg",
+        bio: "Mengelola strategi visual dan branding untuk menjangkau lebih banyak audiens.",
         socialLinks: {
-            instagram: "https://instagram.com/chamdani"
+            instagram: "https://instagram.com/",
+            tiktok: "https://tiktok.com/",
+            email: "mailto:salsa@pixelstudio.com"
         }
     },
     {
         id: 4,
-        name: "Meta",
-        role: "Sutradara",
-        photo: "images/team-photo.jpg",
-        bio: "Sutradara kreatif yang mengarahkan visi visual dan storytelling. Berpengalaman dalam video production dan content direction.",
+        name: "Miko R.",
+        role: "Content Creator",
+        photo: "images/team-placeholder.jpg",
+        bio: "Membuat konten kreatif yang menampilkan produk dengan cara yang unik.",
         socialLinks: {
-            instagram: "https://instagram.com/meta"
-        }
-    },
-    {
-        id: 5,
-        name: "Anggun",
-        role: "Model",
-        photo: "images/team-photo.jpg",
-        bio: "Model profesional yang membawa kehidupan pada setiap konsep visual. Versatile dalam berbagai style dan tema pemotretan.",
-        socialLinks: {
-            instagram: "https://instagram.com/anggun"
-        }
-    },
-    {
-        id: 6,
-        name: "Mondol",
-        role: "Editor",
-        photo: "images/team-photo.jpg",
-        bio: "Editor video dan konten yang mengolah footage menjadi karya visual yang menarik. Ahli dalam post-production dan color grading.",
-        socialLinks: {
-            instagram: "https://instagram.com/mondol"
+            instagram: "https://instagram.com/",
+            youtube: "https://youtube.com/",
+            tiktok: "https://tiktok.com/"
         }
     }
 ];
